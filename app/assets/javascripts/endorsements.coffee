@@ -3,10 +3,10 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 $ ->
-  $('.endorsements-link').on 'click' (event) ->
-  event.preventDefault()
+  $('.endorsements-link').on 'click', (event) ->
+      event.preventDefault()
 
-  endorsementCount = $(this).siblings '.endorsements_count'
+      endorsementCount = $(this).siblings '.endorsements_count'
 
-  $.post this.href, ->
-  endorsementCount.text response.new_endorsement_count
+      $.post this.href, ->
+        endorsementCount.text response.new_endorsement_count
