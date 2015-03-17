@@ -1,11 +1,13 @@
 # Yelp Copy
 _____________________
 
+##Pair Partner
+
+[Oliver Lucas](https://github.com/olucas92)
+
 This was our project for Week 9 of Makers Academy. The task was to create a copy of Yelp using Rails.
 
-![screenshot]()
-
-###Tools used
+##Tools used
 
 * Ruby
 * Rails
@@ -20,8 +22,14 @@ This was our project for Week 9 of Makers Academy. The task was to create a copy
 
 ##Domain Model / CRC
 
+A user can sign up, create/edit/delete a restaurant, create/edit/review a review for a restaurant, and endorse a review. A user cannot edit/delete a restaurant/review written by another user; nor can they review the same restaurant more than once.
 
 Classes:
+
+User
+Restaurant
+Review
+Endorsement
 
 
 ___________________________
@@ -36,11 +44,11 @@ _______________________________
 
 ##Issues faced
 
-Using the devise gem, in particular omniauth, proved quite a challenge.
+Using the devise gem, in particular omniauth, proved quite a challenge. I also struggled to get this on heroku and imagine that the issue is something to do with AWS. 
 
 
 ##Future intentions
 
-I would like to continue adding functionality to this, improve the front end, and get it hosted on heroku.
+This was my first go at outside-in testing, and I would like to try this approach in other projects. Since moving on from the project it seems that the images no longer load and the Facebook Login also fails - I have a feeling that I've reassigned the both the Facebook and AWS keys, this therefore needs fixing. I would like to continue adding functionality to this, improve the front end, and get it hosted on heroku.
 
 
