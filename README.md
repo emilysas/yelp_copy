@@ -1,11 +1,15 @@
 # Yelp Copy
 _____________________
 
+This was our project for Week 9 of Makers Academy. The task was to create a copy of Yelp using Rails.
+
 ##Pair Partner
 
 [Oliver Lucas](https://github.com/olucas92)
 
-This was our project for Week 9 of Makers Academy. The task was to create a copy of Yelp using Rails.
+##Learning Objectives
+
+The aim of the week was to start getting our heads around Rails, and to start using tools like the Devise Gem and AWS.
 
 ##Tools used
 
